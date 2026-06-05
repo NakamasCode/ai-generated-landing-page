@@ -209,3 +209,47 @@ nav {
 .cta .btn {
     background: var(--accent);
 }
+
+.footer {
+    background: var(--text);
+    color: var(--card);
+    padding: 3rem 0;
+}
+
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-bottom: 1rem;
+}
+
+
+.footer-links a {
+    color: var(--card);
+    font-size: 0.9rem;
+}
+
+.footer-links a:hover {
+    color: var(--primary);
+}
+
+.footer h3 {
+    font-size: 1.2rem;
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 1rem;
+}
+
+
+.footer p {
+    color: #9CA3AF;
+    font-size: 0.85rem;
+    margin-top: 1rem;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
