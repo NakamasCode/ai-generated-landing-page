@@ -189,3 +189,23 @@ nav {
 .card:hover {
     transform: translateY(-5px);
 }
+
+.cta {
+    padding: 3rem 0;
+    text-align: center;
+    background-color: var(--primary);
+    color: var(--card);
+}
+
+.cta h2 {
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 1rem;
+}
+
+.cta p{
+    margin-bottom: 2rem;
+}
+
+.cta .btn {
+    background: var(--accent);
+}
